@@ -1579,7 +1579,7 @@ entry(
 
 entry(
     index = 127,
-    label = "N3d-Sd",
+    label = "N3d-S2d",
     group = 
 """
 1 * N3d                           u1 {2,D}
@@ -1790,7 +1790,7 @@ L1: Y_rad
             L4: N3d-Cd
             L4: N3d-Cdd
             L4: N3d-O2d
-            L4: N3d-Sd
+            L4: N3d-S2d
             L4: N3d-N3d
     L2: N5_rad
         L3: N5s_rad

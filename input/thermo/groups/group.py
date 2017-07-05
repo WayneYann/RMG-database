@@ -45176,7 +45176,7 @@ Inferred from a least squares fit from 40 species mostly calculated at cbsqb3, 4
 
 entry(
     index = 2024,
-    label = "O2d-Sd",
+    label = "O2d-S2d",
     group =
 """
 1 * O2d    u0 {2,D}
@@ -47250,7 +47250,7 @@ L1: R
             L4: O2d-O2d
             L4: O2d-N3d
             L4: O2d-N5dc
-            L4: O2d-Sd
+            L4: O2d-S2d
         L3: O2s
             L4: O2s-N
                 L5: O2s-CN

@@ -34,7 +34,7 @@ entry(
 
 entry(
     index = 2,
-    label = "YJ-Ss",
+    label = "YJ-S2s",
     group = 
 """
 1 *3 R!H u1
@@ -44,7 +44,7 @@ entry(
 
 entry(
     index = 4,
-    label = "CJ-Ss",
+    label = "CJ-S2s",
     group = 
 """
 1 *3 C u1
@@ -54,7 +54,7 @@ entry(
 
 entry(
     index = 5,
-    label = "CdsJ-Ss",
+    label = "CdsJ-S2s",
     group = 
 """
 1 *3 Cd u1 {2,D}
@@ -65,7 +65,7 @@ entry(
 
 entry(
     index = 6,
-    label = "CsJ-Ss",
+    label = "CsJ-S2s",
     group = 
 """
 1 *3 Cs u1 {2,S} {3,S}
@@ -233,7 +233,7 @@ entry(
 
 entry(
     index = 20,
-    label = "SJ-Ss",
+    label = "SJ-S2s",
     group = 
 """
 1 *3 S2s u1
@@ -243,7 +243,7 @@ entry(
 
 entry(
     index = 21,
-    label = "C-Ss",
+    label = "C-S2s",
     group = 
 """
 1 *1 C u0
@@ -253,7 +253,7 @@ entry(
 
 entry(
     index = 22,
-    label = "Cb-Ss",
+    label = "Cb-S2s",
     group = 
 """
 1 *1 Cb u0
@@ -263,7 +263,7 @@ entry(
 
 entry(
     index = 23,
-    label = "Ct-Ss",
+    label = "Ct-S2s",
     group = 
 """
 1 *1 Ct u0 {2,T}
@@ -274,7 +274,7 @@ entry(
 
 entry(
     index = 24,
-    label = "Cds-Ss",
+    label = "Cds-S2s",
     group = 
 """
 1 *1 C u0 {2,D} {3,S}
@@ -395,7 +395,7 @@ entry(
 
 entry(
     index = 34,
-    label = "C=S-Ss",
+    label = "C=S-S2s",
     group = 
 """
 1 *1 CS u0 {2,S}
@@ -506,7 +506,7 @@ entry(
 
 entry(
     index = 44,
-    label = "Cs-Ss",
+    label = "Cs-S2s",
     group = 
 """
 1 *1 C u0 {2,S} {3,S} {4,S}
@@ -1549,10 +1549,10 @@ entry(
 tree(
 """
 L1: XSYJ
-L1: YJ-Ss
-    L2: CJ-Ss
-        L3: CdsJ-Ss
-        L3: CsJ-Ss
+L1: YJ-S2s
+    L2: CJ-S2s
+        L3: CdsJ-S2s
+        L3: CsJ-S2s
             L4: CsJ-SsOneDe
                 L5: CsJ-SsOneDeCs
                     L6: CsJ-SsCdCs
@@ -1566,11 +1566,11 @@ L1: YJ-Ss
             L4: CsJ-SsCsH
             L4: CsJ-SsSsH
             L4: CsJ-SsHH 
-    L2: SJ-Ss
-L1: C-Ss
-    L2: Cb-Ss
-    L2: Ct-Ss
-    L2: Cds-Ss
+    L2: SJ-S2s
+L1: C-S2s
+    L2: Cb-S2s
+    L2: Ct-S2s
+    L2: Cds-S2s
         L3: Cds-SsCs
         L3: Cds-SsCt
         L3: Cds-SsCb
@@ -1580,7 +1580,7 @@ L1: C-Ss
         L3: Cds-SsCd
         L3: Cds-SsC=S
         L3: Cds-SsH
-    L2: C=S-Ss
+    L2: C=S-S2s
         L3: C=S-SsCs
         L3: C=S-SsCt
         L3: C=S-SsCb
@@ -1590,7 +1590,7 @@ L1: C-Ss
         L3: C=S-SsCd
         L3: C=S-SsC=S
         L3: C=S-SsH
-    L2: Cs-Ss
+    L2: Cs-S2s
         L3: Cs-SsCsCsCs
         L3: Cs-SsOsCsCs
         L3: Cs-SsOsOsCs

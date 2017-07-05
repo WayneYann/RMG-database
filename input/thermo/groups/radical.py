@@ -8565,7 +8565,7 @@ From comparison with the saturated closed-shell species, mostly calculated at cb
 
 entry(
     index = 2006,
-    label = "O2sJ-Ss",
+    label = "O2sJ-S2s",
     group =
 """
 1 * O2s    u1 p2 c0 {2,S}
@@ -8593,7 +8593,7 @@ entry(
 1 * O2s  u1 p2 c0 {2,S}
 2   S   ux px c0 {1,S}
 """,
-    thermo = u'O2sJ-Ss',
+    thermo = u'O2sJ-S2s',
     shortDesc = u"""Sulfur/Oxygen Extension, Ryan Gillis""",
     longDesc =
 u""""
@@ -8943,7 +8943,7 @@ L1: Radical
                     L6: C3COOJ
                 L5: HOOJ
             L4: SOJ
-                L5:O2sJ-Ss
+                L5:O2sJ-S2s
         L3: NJ
             L4: N3sJ
                 L5: NH2J
